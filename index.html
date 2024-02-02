@@ -23,7 +23,7 @@
         <nav class="nav container padd-15">
             <!-- nav logo -->
             <a href="#" class="nav-logo">
-                <h2>devcrxs</h2>
+                <h2>castaneadev</h2>
             </a>
             <!-- nav menu -->
             <div class="nav-menu" id="nav-menu">
@@ -34,9 +34,6 @@
                     </li>
                     <li class="nav-item">
                         <a href="#about" class="nav-link">Sobre mí</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#services" class="nav-link">Servicios Freelancer</a>
                     </li>
                     <li class="nav-item">
                         <a href="#portfolio" class="nav-link">Portafolio</a>
@@ -73,7 +70,7 @@
                     <img src="assets/img/avatar-1.png" alt="Bolby">
                     <!-- info -->
                     <h1>Cristian Castañeda</h1>
-                    <span>😺 Programador<span class="info-text"> junior en desarrollo de videojuegos</span></span>
+                    <span>😺 Programador<span class="info-text"> en desarrollo de videojuegos</span></span>
                     <!-- social icons -->
                     <ul class="social-icons">
                         <li><a href="https://instagram.com/devcrxs/" target="_blank"><i class="lni lni-instagram-original"></i></a></li>
@@ -113,10 +110,9 @@
                             <div class="row">
                                 <div class="about-text padd-15">
                                     <!-- about text -->
-                                    <p>Hola soy Cristian😺
-                                        Un apasionado desarrollador de videojuegos de Cali, Colombia 🐔 Actualmente uso Unity Engine como motor principal. Tambien tengo conocimientos en python haciendo uso de Flask rest para conectar Unity con bases de datos.</p>
+                                    <p>¡Hola soy Cristian! 😺 Soy un desarrollador de videojuegos colombiano con 2 años de experiencia en programación haciendo uso de Unity Engine y Unreal Engine.</p>
                                     <div>
-                                        <a href="assets/CV Cristian Castañeda 2022.pdf" download="CV Cristian Camilo Castañeda Benavides" class="btn btn-default">Descarga mi CV</a>
+                                        <a href="assets/CV Cristian Castañeda 2024.pdf" download="CV Cristian Castañeda" class="btn btn-default">Descarga mi CV</a>
                                     </div>
                                 </div>
                                 <div class="skills padd-15">
@@ -131,18 +127,18 @@
                                         </div>
                                         <!-- skill item -->
                                         <div class="skill-item">
-                                            <h4><i class="fas fa-laptop-code"></i> C# </h4>
+                                            <h4><i class="lni lni-game"></i> Unreal Engine </h4>
                                             <div class="progress">
-                                                <div class="progress-in" style="width: 60%; background: rgb(255,76,96);"></div>
-                                                <div class="skill-percent">60%</div>
+                                                <div class="progress-in" style="width: 40%; background: rgb(255,76,96);"></div>
+                                                <div class="skill-percent">40%</div>
                                             </div>
                                         </div>
                                         <!-- skill item -->
                                         <div class="skill-item">
-                                            <h4><i class="fab fa-python"></i> Python</h4>
+                                            <h4><i class="lni lni-graph"></i> C#</h4>
                                             <div class="progress">
-                                                <div class="progress-in" style="width: 40%; background: rgb(108,108,229);"></div>
-                                                <div class="skill-percent">40%</div>
+                                                <div class="progress-in" style="width: 60%; background: rgb(108,108,229);"></div>
+                                                <div class="skill-percent">60%</div>
                                             </div>
                                         </div>
                                         
@@ -155,41 +151,6 @@
             </div>
         </section>
         <!--=============== Services ===============-->
-        <section class="services section" id="services">
-            <div class="container">
-                <!-- section title -->
-                <h2 class="section-title padd-15">Servicios</h2>
-                <div class="row">
-                    <!-- service item -->
-                    <div class="service-item padd-15 ">
-                        <div class="service-item-inner" style="background: rgb(108,108,229);">
-                            <img src="assets/img/CasualGame.png" alt="">
-                            <h3>VIDEOJUEGO CASUAL</h3>
-                            <p>Es un videojuego móvil fácil de jugar y con mecánicas simples y entretenido.</p>
-                        </div>
-                    </div>
-                    <!-- service item -->
-                    <div class="service-item padd-15">
-                        <div class="service-item-inner" style="background: rgb(76, 171, 249);">
-                            <img src="assets/img/storefront_illustration_2.png" alt="">
-                            <h3>ADVERGAMING</h3>
-                            <p>Es un videojuego para publicitar una marca, producto, organización o idea.</p>
-                        </div>
-                    </div>
-                    <!-- service item -->
-                    <div class="service-item padd-15">
-                        <div class="service-item-inner" style="background: rgb(249,123,139);">
-                            <img src="assets/img/AplicacionAr.png" alt="">
-                            <h3>APLICACIÓN AR</h3>
-                            <p>Es una aplicación móvil donde puedes experimentar la Realidad Aumentada.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="text padd-15">
-                    <p>¿Buscas un trabajo personalizado? <a href="https://wa.link/vscd42" target="_blank">Da click aqui</a> ¡para contactarme! 👋</p>
-                </div>
-            </div>
-        </section>
         <!--=============== Portfolio ===============-->
         <section class="portfolio section" id="portfolio">
             <div class="container">
@@ -199,6 +160,7 @@
                     <div class="portfolio-filter padd-15">
                         <div class="portfolio-filter-inner">
                             <button type="button" class="active" data-filter="all">Todo</button>
+                            <button type="button" data-filter="juegos">Videojuegos Profesionales</button>
                             <button type="button" data-filter="casuales">Casuales</button>
                             <button type="button" data-filter="advergaming">Advergaming</button>
                             <button type="button" data-filter="aplicaciones">Aplicaciones</button>
@@ -206,6 +168,34 @@
                     </div>
                 </div>
                 <div class="row">
+                     <!-- portfolio item -->
+                    <div class="portfolio-item padd-15" data-category="juegos">
+                        <div class="portfolio-item-inner">
+                            <div class=" card__item portfolio-item-thumbnail">
+                                <img src="assets/img/Monolith.jpg" alt="Monolith: Requiem of the Ancients" style="border-radius: 20px;">
+                                <div class="mask"></div>
+                                <div class="card__content">
+                                    <h4 class="card__title">Monolith</h4>
+                                    <p class="card__description">Juego RPG de acción</p>
+                                    <a href="https://store.steampowered.com/app/1989320/Monolith_Requiem_of_the_Ancients/" target="_blank" class="button_proyect">Ver</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <!-- portfolio item -->
+                    <div class="portfolio-item padd-15" data-category="advergaming">
+                        <div class="portfolio-item-inner">
+                            <div class=" card__item portfolio-item-thumbnail">
+                                <img src="assets/img/ColorFul.jpg" alt="Colorful Mountains" style="border-radius: 20px;">
+                                <div class="mask"></div>
+                                <div class="card__content">
+                                    <h4 class="card__title">Colorful Mountains</h4>
+                                    <p class="card__description">Juego para promover el estudio.</p>
+                                    <a href="https://www.instagram.com/reel/C21WHimudyP/?igsh=MTEyZXd3a3hhNmQ1NA%3D%3D" target="_blank" class="button_proyect">Ver</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <!-- portfolio item -->
                     <div class="portfolio-item padd-15" data-category="aplicaciones">
                         <div class="portfolio-item-inner">
@@ -348,7 +338,7 @@
                                 <img src="assets/img/InstagramLogo.png" alt="">
                             </div>
                             <h3>Instagram</h3>
-                            <div class="comment">Si te gusta mi trabajo puedes contactarme por instagram como: @devcrxs 👍</div>
+                            <div class="comment">Si te gusta mi trabajo puedes contactarme por instagram como: @castaneadev 👍</div>
                         </div>
                         <!-- testimonial item -->
                         <div class="testimonial-item swiper-slide">
@@ -376,7 +366,7 @@
         <footer class="footer">
             <div class="container">
                 <div class="footer-text padd-15">
-                    <p>&copy; Portafolio devcrxs 2022</p>
+                    <p>&copy; Portafolio castaneadev 2024</p>
                 </div>
             </div>
         </footer>
