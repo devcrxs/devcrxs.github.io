@@ -668,7 +668,7 @@
       left: 0;
       bottom: 0;
       width: 100%;
-      padding: 20px;
+      padding: 21px;
       opacity: 0;
     }
     .card__item:hover .card__content{
